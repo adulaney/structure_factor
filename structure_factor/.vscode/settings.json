@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/home/austin/anaconda3/bin/python",
+    "cmake.configureOnOpen": false
+}
