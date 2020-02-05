@@ -1,0 +1,10 @@
+#ignore ipynb checkpoints
+**/.ipynb_checkpoints
+*.png
+**/.vscode
+**/__pycache__
+*.pkl
+*.npy
+**/.idea
+*.csv
+/build
