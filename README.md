@@ -6,9 +6,9 @@ A module for computing static and dynamic structure factor from a GSD simulation
 This module is used to compute dynamic and static structure factors from GSD simulation files.
 
 ## Requirements
--CMake >= 3.0
--C++11 capable compiler (tested with gcc 7.4.0)
--CUDA >= 8.0 (optional)
+- CMake >= 3.0
+- C++11 capable compiler (tested with gcc 7.4.0)
+- CUDA >= 8.0 (optional)
 
 ## Compiling
 In the structure factor folder run
@@ -46,8 +46,8 @@ structure_class.ssf(traj,compute_mode='gpu')
 ssf.compute(frame=0,max_kint=15, single_vec=True, gpu_id=0)
 - frame: (int) Frame of trajectory to perform the calculation on
 - max_kint: (int) Number of wavevectors to compute the structure factor over. Sampled using the Nyquist frequency.
--single_vec: (bool) Whether we wish to consider wavevectors in more than one dimension (i.e. k_x, k_y, k_z integer values)
--gpu_id: (int) The id of the gpu to use for computation if compute_mode="gpu"
+- single_vec: (bool) Whether we wish to consider wavevectors in more than one dimension (i.e. k_x, k_y, k_z integer values)
+- gpu_id: (int) The id of the gpu to use for computation if compute_mode="gpu"
 
 
 
